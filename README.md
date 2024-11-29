@@ -38,9 +38,17 @@ Follow these steps to get the project up and running on your local environment:
    ```
 2. Connect db of your choice
 
-3. ```bash
+3. Seed db and serve
+ ```bash
+    php artisan migrate:fesh --seed
     php artisan serve
+```
+
+4. Create ERD
+    ```bash
+    php artisan erd:generate
     ```
+    
 
 ### Presentation/Website:
 1. https://mwa-1-0ikbpb0.gamma.site/
