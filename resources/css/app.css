@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-neutral text-primary;
+    }
+    h1, h2, h3 {
+        @apply text-secondary;
+    }
+    button {
+        @apply bg-primary text-white hover:bg-secondary;
+    }
+}
